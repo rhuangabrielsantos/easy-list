@@ -4,7 +4,7 @@ import Footer from './components/Footer'
 
 function Home() {
   return (
-    <div class="h-screen bg-aro flex flex-col items-center justify-between">
+    <div className="h-screen bg-aro flex flex-col items-center justify-between">
       <Header />
       <Main />
       <Footer />

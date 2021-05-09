@@ -5,7 +5,8 @@ module.exports = {
     extend: {},
     fontFamily: {
       'lobster': ['Lobster', 'ui-sans-serif', 'system-ui'],
-      'roboto': ['Roboto', 'ui-sans-serif', 'system-ui']
+      'roboto': ['Roboto', 'ui-sans-serif', 'system-ui'],
+      'workSans': ['Work Sans', 'ui-sans-serif', 'system-ui']
     }
   },
   variants: {
