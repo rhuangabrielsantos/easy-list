@@ -3,9 +3,15 @@ module.exports = {
   darkMode: false,
   theme: {
     extend: {},
+    fontFamily: {
+      'lobster': ['Lobster', 'ui-sans-serif', 'system-ui'],
+      'roboto': ['Roboto', 'ui-sans-serif', 'system-ui']
+    }
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-dracula')(),
+  ],
 }
