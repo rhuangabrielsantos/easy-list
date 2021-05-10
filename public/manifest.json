@@ -1,0 +1,9 @@
+{
+  "name": "Easy Note",
+  "short_name": "EN",
+  "theme_color": "#6272a3",
+  "background_color": "#6272a3",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/"
+}
