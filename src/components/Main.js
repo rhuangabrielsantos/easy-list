@@ -7,7 +7,11 @@ export default function Main() {
   const [ note, setNote ] = useState('')
 
   useEffect(() => {
-    setTodo(JSON.parse(localStorage.getItem('todo')))
+    const storageTodo = JSON.parse(localStorage.getItem('todo'));
+
+    if (storageTodo !== null) {
+      setTodo(storageTodo)
+    }
   }, []);
 
   useEffect(() => {
