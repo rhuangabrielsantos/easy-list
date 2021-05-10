@@ -12,7 +12,8 @@
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "postcss": "^8.2.10"
   },
   "scripts": {
     "start": "craco start",
@@ -40,7 +41,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.8.6",
-    "postcss": ">=8.2.10",
     "tailwind-dracula": "^1.0.5",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2"
   }
