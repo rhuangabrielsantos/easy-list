@@ -68,20 +68,22 @@ export default function Main() {
   return (
     <main className="flex flex-col items-center justify-start mt-5 w-screen">
       <div  className="flex items-center justify-center">
-        <input 
-          className="shadow appearance-none border rounded w-11/12 md:w-96 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" 
-          type="text" 
-          placeholder="Note"
-          onChange={ e => setNote(e.target.value) }
-          value={note}
-        />
-        <button
-          className="shadow bg-dracula hover:bg-buffy focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded ml-3" 
-          type="button"
-          onClick={createNewTodo}
-        >
-          Create
-        </button>
+        <form>
+          <input 
+            className="shadow appearance-none border rounded w-11/12 md:w-96 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" 
+            type="text" 
+            placeholder="Note"
+            onChange={ e => setNote(e.target.value) }
+            value={note}
+          />
+          <button
+            className="shadow bg-dracula hover:bg-buffy focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded ml-3" 
+            type="submit"
+            onClick={createNewTodo}
+          >
+            Create
+          </button>
+        </form>
       </div>
 
 
