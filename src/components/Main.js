@@ -29,6 +29,8 @@ export default function Main() {
       description: note,
       checked: false
     }])
+
+    setNote('');
   }
 
   function checkNote(indexToChanged) {
@@ -71,6 +73,7 @@ export default function Main() {
           type="text" 
           placeholder="Note"
           onChange={ e => setNote(e.target.value) }
+          value={note}
         />
         <button
           className="shadow bg-dracula hover:bg-buffy focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded ml-3" 
