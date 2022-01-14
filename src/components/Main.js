@@ -103,7 +103,7 @@ export default function Main() {
               {note.checked ? <FaFlag className="w-5 h-5 text-cullen" /> : <FaRegFlag className="w-5 h-5 text-cullen" /> }
             </div>
             <div className="w-10/12" onClick={() => checkNote(index)}>
-              <h3 className={"break-all text-cullen font-workSans text-xl ml-3 " + (note.checked ? 'line-through' : '')}>{note.description}</h3>
+              <h3 className={"break-all text-cullen font-workSans text-xl ml-3 whitespace-nowrap " + (note.checked ? 'line-through' : '')}>{note.description}</h3>
             </div>
             <div className="w-1/12 flex items-center justify-center" onClick={() => trashNote(index)}>
               <FaRegTrashAlt className="w-5 h-5 text-cullen" />
